@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+.image{
+    width: 400%;
+    height: 300px;
+    border: 2px solid red;
+    background-image: url() ;
+}

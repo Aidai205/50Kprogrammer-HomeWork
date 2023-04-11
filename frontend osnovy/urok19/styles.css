@@ -1,0 +1,52 @@
+.title_1{
+    color: rebeccapurple;
+    font-size: 25px;
+}
+.title_1:active{
+    color: yellow;
+    font-size: 48px;
+}
+
+.title_2{
+    color: blue;
+
+}
+
+.title_2:hover{
+    color: black;
+}
+
+.container p:first-child{
+    color: red;
+    font-size: 25px;
+}
+
+.title_3::first-letter{
+    font-size: 48px;
+}
+
+.text_1::first-line{
+    font-weight: bold;
+    color: blue;
+}
+
+.text_1::selection{
+    color: blue;
+    background: pink;
+}
+
+.text_1::after{
+    content: "HELLO";
+    font-size: 40px;
+    color:brown; 
+}
+
+.text_1::before{
+    content: "BEFORE";
+    color: red;
+    font-size: 40px;
+}
+
+
+
+
